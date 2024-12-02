@@ -2,19 +2,19 @@ import React from "react";
 
 import "./App.css";
 
-import Card from "./components/Card"
+import Card from "./components/Card";
 
-import Test from "./components/Test"
+import Login from "./components/nav-bar/Login";
 
 export default function App() {
+  console.log(" ");
 
   return (
     <div className="main-app">
       {/* <Card/> */}
-      <h1>Hello world</h1>
-      <Test/>
+      {/* <h1>Hello world</h1> */}
+      {/* <Test /> */}
+      <Login />
     </div>
-    
   );
 }
-

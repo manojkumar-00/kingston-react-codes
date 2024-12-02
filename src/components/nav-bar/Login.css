@@ -1,0 +1,28 @@
+.login-container {
+    background-color: lightblue;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+h3 {
+    font-size: 25px;
+    display: inline;
+}
+
+button {
+    margin-left: 20px;
+    background-color: green;
+    color: white;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 10px;
+    height: fit-content;
+}
+
+.on-login {
+    background-color: red;
+}
