@@ -1,0 +1,81 @@
+:root {
+    --color-negative: #ff1744;
+    --color-positive: #0000FF;
+    --color-gray100: #f0f7f8;
+    --color-gray200: #cfd8dc;
+    --color-gray300: #a7b7be;
+    --color-gray400: #6b7e86;
+    --color-gray500: #425a65;
+    --radius: 0.2rem;
+}
+
+.counter-container {
+    font-family: Montserrat, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--color-gray100);
+    color: var(--color-gray500);
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+.button__wrapper {
+    display: flex;
+    gap: 2rem;
+}
+
+.button__wrapper button {
+    border: none;
+    background-color: white;
+    box-shadow: 0px 0px 10px var(--color-gray200);
+    font-weight: bold;
+    font-size: 2rem;
+    color: inherit;
+    border-radius: 50%;
+    outline: none;
+    height: 4rem;
+    width: 4rem;
+    cursor: pointer;
+    transition: background-color 250ms ease-in-out, transform 50ms ease-in-out;
+}
+
+.button__wrapper button:hover {
+    background-color: var(--color-gray200);
+}
+
+.button__wrapper button:active {
+    transform: scale(0.9);
+}
+
+.button__wrapper button:focus {
+    box-shadow: 0 0 0 3px var(--color-gray500);
+}
+
+.negative {
+    color: var(--color-negative);
+    animation: pulse 500ms ease-in-out;
+}
+
+.positive {
+    color: var(--color-positive);
+    animation: pulse 500ms ease-in-out;
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+}
