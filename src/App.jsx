@@ -10,10 +10,13 @@ import AccordionPage from "./pages/accordion/AccordionPage";
 export default function App() {
   console.log(" ");
 
+  const arr = [10, 20, 30, 50, 60];
+
   return (
     <div className="main-app">
-      <CounterPage />
+      {/* <CounterPage /> */}
       <Search />
+      {/* <AccordionPage /> */}
     </div>
   );
 }
