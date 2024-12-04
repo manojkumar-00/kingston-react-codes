@@ -2,7 +2,13 @@ import React from "react";
 
 import "./App.css";
 
-import { AccorionPage, BlogPage, CounterPage, Search } from "./pages/index";
+import {
+  AccorionPage,
+  BlogPage,
+  CounterPage,
+  Search,
+  SliderPage,
+} from "./pages/index";
 
 export default function App() {
   console.log(" ");
@@ -14,7 +20,8 @@ export default function App() {
       {/* <CounterPage /> */}
       {/* <Search /> */}
       {/* <AccordionPage /> */}
-      <BlogPage />
+      {/* <BlogPage /> */}
+      <SliderPage />
     </div>
   );
 }
