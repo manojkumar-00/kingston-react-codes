@@ -1,6 +1,6 @@
 import React from "react";
 
-import { CustomSlider } from "../../components";
+import { CustomSlider, Card } from "../../components";
 import { images } from "../../assets";
 
 import "./SliderPage.css";

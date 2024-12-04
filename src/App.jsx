@@ -2,26 +2,22 @@ import React from "react";
 
 import "./App.css";
 
-import {
-  AccorionPage,
-  BlogPage,
-  CounterPage,
-  Search,
-  SliderPage,
-} from "./pages/index";
-
+import Card from "./components/Card";
+import products from "./assets/products-data";
 export default function App() {
-  console.log(" ");
-
-  const arr = [10, 20, 30, 50, 60];
-
   return (
     <div className="main-app">
-      {/* <CounterPage /> */}
-      {/* <Search /> */}
-      {/* <AccordionPage /> */}
-      {/* <BlogPage /> */}
-      <SliderPage />
+      {/* {products?.map((product, idx) => {
+        return (
+          <Card
+            product={product}
+            idx={idx}
+            key={idx}
+            style={{ backgroundColor: "red", border: "1px solid black" }}
+          />
+        );
+      })} */}
+      {/* <Card /> */}
     </div>
   );
 }
